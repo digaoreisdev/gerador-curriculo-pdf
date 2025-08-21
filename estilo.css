@@ -24,28 +24,24 @@ header {
     padding-bottom: 15px;
     margin-bottom: 25px;
 }
+header h1 { margin: 0; font-size: 2.2em; color: #111; }
+header h2 { margin: 5px 0; font-size: 1.5em; font-weight: 400; color: #555; }
+.contato { font-size: 0.9em; color: #666; }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-    color: #111;
+/* CORREÇÃO: Estilo para Redes Sociais, agora com cor e sublinhado */
+.redes-sociais {
+    margin-top: 10px;
 }
-
-header h2 {
-    margin: 5px 0;
-    font-size: 1.5em;
-    font-weight: 400;
-    color: #555;
-}
-
-.contato {
+.redes-sociais a {
+    color: #0000EE; /* Cor azul padrão de link */
+    text-decoration: underline; /* Adiciona o sublinhado */
     font-size: 0.9em;
-    color: #666;
+    margin: 0 5px;
 }
 
-/* Estilo padrão para cada seção (Resumo, Experiência, etc.) */
 .secao {
     margin-bottom: 25px;
+    page-break-inside: avoid;
 }
 
 .titulo-secao {
@@ -58,29 +54,35 @@ header h2 {
     letter-spacing: 1px;
 }
 
-/* Estilo para cada item dentro de uma seção (cada cargo, cada curso) */
-.item {
-    margin-bottom: 15px;
+.justificado {
+    text-align: justify;
 }
 
-.item h4 {
-    margin: 0 0 5px 0;
-    font-size: 1.1em;
-    color: #444;
-}
+.item { margin-bottom: 15px; }
+.item h4 { margin: 0 0 5px 0; font-size: 1.1em; color: #444; }
+.item .periodo { font-size: 0.9em; font-style: italic; color: #777; margin: 0 0 10px 0; }
+.item .instituicao { font-size: 1em; color: #555; margin: 0 0 5px 0; }
 
-.item .periodo {
+.item .link-projeto a {
     font-size: 0.9em;
     font-style: italic;
-    color: #777;
-    margin: 0 0 10px 0;
+    color: #0000EE;
+    text-decoration: underline;
+    margin-bottom: 10px;
 }
 
-/* Estilo para a lista de competências */
-ul {
-    padding-left: 20px;
+.competencias-lista {
+    columns: 2;
+    column-gap: 40px;
 }
-
-li {
-    margin-bottom: 5px;
+.competencia-categoria {
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    page-break-after: avoid; 
+}
+.competencia-item {
+    margin: 0 0 5px 0;
 }
