@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de {{ dados.nome_completo }}</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>{{ dados.nome_completo }}</h1>
+        <h2>{{ dados.cargo_desejado }}</h2>
+        <div class="contato">
+            <span>{{ dados.contato.email }}</span> |
+            <span>{{ dados.contato.telefone }}</span>
+        </div>
+    </header>
+
+    <div class="secao">
+        <h3 class="titulo-secao">Resumo Profissional</h3>
+        <p>{{ dados.resumo_profissional }}</p>
+    </div>
+
+    <div class="secao">
+        <h3 class="titulo-secao">Formação Acadêmica</h3>
+        {% for form in dados.formacao %}
+        <div class="item">
+            <h4>{{ form.curso }} - {{ form.instituicao }}</h4>
+            <p class="periodo">{{ form.periodo }}</p>
+        </div>
+        {% endfor %}
+    </div>
+    
+    <div class="secao">
+        <h3 class="titulo-secao">Competências</h3>
+        <ul>
+        {% for comp in dados.competencias %}
+            <li>{{ comp.competencia if comp.competencia else comp }}</li>
+        {% endfor %}
+        </ul>
+    </div>
+
+    <div class="secao">
+        <h3 class="titulo-secao">Experiências Profissionais</h3>
+        {% for exp in dados.experiencias %}
+        <div class="item">
+            <h4>{{ exp.cargo }} na {{ exp.empresa }}</h4>
+            <p class="periodo">{{ exp.periodo }}</p>
+            <p>{{ exp.descricao }}</p>
+        </div>
+        {% endfor %}
+    </div>
+
+</body>
+</html>

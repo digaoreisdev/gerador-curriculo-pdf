@@ -17,7 +17,7 @@
     {
       "cargo": "Gerente Comercial",
       "empresa": "NEW POINT INFORMÁTICA SA",
-      "periodo": "2018 _ 2019",
+      "periodo": "2018 - 2019",
       "descricao": "Gestão da filial, superando metas de vendas e reduzindo inadimplência. Responsável por ministrar cursos técnicos e liderar equipes, contribuindo para a otimização de processos em diversas filiais."
     }
   ],
@@ -34,11 +34,23 @@
     }
   ],
   "competencias": [
-    "Liderança e Formação de Equipes",
-    "Análise e Implantação de Processos",
-    "Lógica de Programação",
-    "Desenvolvimento em C# e .NET (em aprofundamento)",
-    "Gestão de Projetos de Software",
-    "Rápida aprendizagem de novas tecnologias"
+    {
+      "competencia": "Liderança e Formação de Equipes"
+    },
+    {
+      "competencia": "Análise e Implantação de Processos"
+    },
+    {
+      "competencia": "Lógica de Programação"
+    },
+    {
+      "competencia": "Desenvolvimento em C# e .NET (em aprofundamento)"
+    },
+    {
+      "competencia": "Gestão de Projetos de Software"
+    },
+    {
+      "competencia": "Rápida aprendizagem de novas tecnologias"
+    }
   ]
 }
