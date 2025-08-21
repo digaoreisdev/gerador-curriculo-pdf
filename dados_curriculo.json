@@ -1,0 +1,44 @@
+{
+  "nome_completo": "RODRIGO FREITAS DOS REIS",
+  "cargo_desejado": "Desenvolvedor | Analista de Sistemas",
+  "contato": {
+    "email": "rfsier@gmail.com",
+    "telefone": "+55 51 99606-4403",
+    "localizacao": "Rio Grande do Sul, Brasil"
+  },
+  "resumo_profissional": "Profissional com mais de 15 anos de experiência em liderança e gestão de equipes multidisciplinares, com forte atuação na otimização de processos através da implementação de sistemas e tecnologia. Atualmente em transição de carreira para a área de Tecnologia da Informação, cursando Análise e Desenvolvimento de Sistemas e buscando aplicar minha visão estratégica e lógica de programação para criar soluções de software eficazes.",
+  "experiencias": [
+    {
+      "cargo": "Supervisor Geral",
+      "empresa": "CEREALISTA OLIVEIRA LTDA",
+      "periodo": "2007 _ Atual",
+      "descricao": "Liderança de múltiplos setores (Logística, Financeiro, RH, etc.), com foco na implementação de processos e sistemas para otimização de tempo e recursos. Utilização de habilidades em software para direcionar melhorias em logística e administração."
+    },
+    {
+      "cargo": "Gerente Comercial",
+      "empresa": "NEW POINT INFORMÁTICA SA",
+      "periodo": "2018 _ 2019",
+      "descricao": "Gestão da filial, superando metas de vendas e reduzindo inadimplência. Responsável por ministrar cursos técnicos e liderar equipes, contribuindo para a otimização de processos em diversas filiais."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "SUPERIOR ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+      "instituicao": "FACULDADES ANHANGUERA",
+      "periodo": "JUL/2023 _ ATUAL"
+    },
+    {
+      "curso": "FORMAÇÃO EM C# & .NET",
+      "instituicao": "ROCKETSEAT",
+      "periodo": "Em andamento"
+    }
+  ],
+  "competencias": [
+    "Liderança e Formação de Equipes",
+    "Análise e Implantação de Processos",
+    "Lógica de Programação",
+    "Desenvolvimento em C# e .NET (em aprofundamento)",
+    "Gestão de Projetos de Software",
+    "Rápida aprendizagem de novas tecnologias"
+  ]
+}
